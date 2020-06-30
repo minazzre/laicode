@@ -1,9 +1,9 @@
 package sorting_algorithms;
 
 public class SelectionSort {
-    public int[] selectionSort(int[] array) {
-        if (array == null || array.length == 0) {
-            return array;
+    public void selectionSort(int[] array) {
+        if (array == null || array.length <= 1) {
+            return;
         }
         for (int i = 0; i < array.length; i++) {
             int minIndex = i;
@@ -18,10 +18,10 @@ public class SelectionSort {
                 array[i] = tmp;
             }
         }
-        return array;
     }
 }
 
-// time complexity: O(n)
+
+// time complexity: O(n2)
 // space complexity: O(1)
 // stability: unstable

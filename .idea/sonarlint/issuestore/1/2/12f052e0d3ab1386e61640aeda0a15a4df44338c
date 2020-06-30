@@ -1,0 +1,6 @@
+
+[
+java:S1854	"9Remove this useless assignment to local variable "value".(Îüôªûÿÿÿÿ8±¸ŞÁ¬.
+L
+java:S1481	"*Remove this unused "value" local variable.(Îüôªûÿÿÿÿ8±¸ŞÁ¬.
+E	java:S108")Either remove or fill this block of code.(‚ÔÅ›8ŠŞ¯¬.
